@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+  color: white;
+}
+body {
+  background-color: #3c424a;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.date-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.day {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  background-color: #343a40;
+  border: 0;
+  border-radius: 5%;
+  height: 30px;
+  width: 300px;
+  margin: 10px;
+  text-indent: 4px;
+  outline: none;
+  caret-color: white;
+}
+
+.add {
+  background-color: #efb300;
+  height: 26px;
+  width: 90px;
+  border: 0;
+  box-shadow: 1px 1px 2px 1px rgb(255 255 255 / 50%);
+  border-radius: 5%;
+}
+
+.to-do-item {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+  margin: 6px 0;
+}
+
+label {
+  margin-left: 5px;
+}
+
+i {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.input {
+  text-align: center;
+}
